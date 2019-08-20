@@ -1,0 +1,22 @@
+{
+  "name": "FullCustomLoader",
+  "version": "0.1.0",
+  "summary": "A short description of FullCustomLoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/monicarajendran/FullCustomLoader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "monicarajendran": "developer.rajanayagam@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/monicarajendran/FullCustomLoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FullCustomLoader/Classes/**/*"
+}
