@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.006592">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: pod_lib_lint" time="9.050879">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: version_bump_podspec" time="0.003296">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: git_add" time="0.020476">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: git_commit" time="0.032848">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: add_git_tag" time="0.064687">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: pod_push" time="3.773171">
+        
+          <failure message="/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;Fastfile:44:in `release'&#10;Fastfile:32:in `block (2 levels) in parsing_binding'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.129.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push' was 1 instead of 0.&#10;Ignoring bigdecimal-1.3.5 because its extensions are not built. Try: gem pristine bigdecimal --version 1.3.5&#10;Ignoring bigdecimal-1.3.4 because its extensions are not built. Try: gem pristine bigdecimal --version 1.3.4&#10;Ignoring ffi-1.9.25 because its extensions are not built. Try: gem pristine ffi --version 1.9.25&#10;Ignoring ffi-1.9.23 because its extensions are not built. Try: gem pristine ffi --version 1.9.23&#10;Ignoring io-console-0.4.6 because its extensions are not built. Try: gem pristine io-console --version 0.4.6&#10;Ignoring libxml-ruby-3.1.0 because its extensions are not built. Try: gem pristine libxml-ruby --version 3.1.0&#10;Ignoring nokogiri-1.8.2 because its extensions are not built. Try: gem pristine nokogiri --version 1.8.2&#10;Ignoring psych-3.0.2 because its extensions are not built. Try: gem pristine psych --version 3.0.2&#10;Ignoring redcarpet-3.4.0 because its extensions are not built. Try: gem pristine redcarpet --version 3.4.0&#10;Ignoring sqlite3-1.3.13 because its extensions are not built. Try: gem pristine sqlite3 --version 1.3.13&#10;[32m&#10;[!] Found podspec `FullCustomLoader.podspec`[0m&#10;Updating spec repo `master`&#10;&#10;CocoaPods 1.8.0.beta.1 is available.&#10;To update use: `sudo gem install cocoapods --pre`&#10;[!] This is a test version we'd love you to try.&#10;&#10;For more information, see https://blog.cocoapods.org and the CHANGELOG for this version at https://github.com/CocoaPods/CocoaPods/releases/tag/1.8.0.beta.1&#10;&#10;Validating podspec&#10; -&gt; FullCustomLoader -&gt; FullCustomLoader (2.0.0)&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/rajavijayakumar/FullCustomLoader.git /var/folders/ft/_bd01ky53dqgtjmc2rwx5mlc0000gp/T/d20190820-15940-1r1592z --template= --single-branch --depth 1 --branch 2.0.0&#10;&#10;Cloning into '/var/folders/ft/_bd01ky53dqgtjmc2rwx5mlc0000gp/T/d20190820-15940-1r1592z'...&#10;warning: Could not find remote branch 2.0.0 to clone.&#10;fatal: Remote branch 2.0.0 not found in upstream origin&#10;) during validation.&#10;&#10;[!] The spec did not pass validation, due to 1 error.&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
